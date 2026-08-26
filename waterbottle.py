@@ -3,4 +3,3 @@
 # the operation of drinking a full water bottle turns it into an empty bottle
 # Given the two integers numBottle and numExchange , return the mximum number of water bottles you can drink.
 
-
