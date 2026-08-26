@@ -4,12 +4,3 @@
 # Given the two integers numBottle and numExchange , return the mximum number of water bottles you can drink.
 
 
-numBottle=int(input("Enter the number of intially fulled water bottles:"))
-numExchange=int(input("Enter how many number of bottles we return to getone fulled water bottle:"))
-consumed=0
-
-while(numBottle>=numExchange):
-    consumed+=numExchange
-    numBottle-=numExchange
-    numBottle+=1
-print(consumed+numBottle)
