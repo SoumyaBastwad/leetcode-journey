@@ -2,5 +2,3 @@
 
 n=int(input("enter a integer:"))
 t=[0,1,1]
-if n<0:
-    print("invalid number
